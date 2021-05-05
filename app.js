@@ -1,3 +1,6 @@
+alert('welcome to mii Bookshop');
+
+
 var bookNums=prompt('how many books have you read?');
 
 
@@ -12,7 +15,6 @@ if(bookNums >=5 & bookNums<12){
 
 var bookRead=prompt('Did you read harry potter?');
 
-// there is a way to change to lower case.
 
 
 if(bookRead=='yes'){
