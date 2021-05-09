@@ -3,7 +3,7 @@ alert('welcome to mii Bookshop');
 
 var bookNums=prompt('how many books have you read?');
 
-
+'<section id="cc">'
 
 if(bookNums >=5 & bookNums<12){
   document.write('<h3> Good job, youv\'e read '+bookNums+'   books</h3>');
@@ -43,3 +43,4 @@ for (var i = 0; i < books; i++) {
   document.write(' <img src="https://api.time.com/wp-content/uploads/2015/06/521811839-copy.jpg" width="50px">');
 }
 document.write('books');
+'</section>'
