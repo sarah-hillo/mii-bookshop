@@ -3,7 +3,11 @@ alert('welcome to mii Bookshop');
 
 var bookNums=prompt('how many books have you read?');
 
+<<<<<<< HEAD
 document.write('<section id="cc" style="text-align:center">');
+=======
+'<section id="cc">'
+>>>>>>> ce556d7a8178a682bdd3f96dc12df1763800b152
 
 if(bookNums >=5 & bookNums<12){
   document.write('<h3> Good job, youv\'e read '+bookNums+'   books</h3>');
@@ -53,7 +57,12 @@ var getBooksNum = function () {
   }
   return books;
 }
+<<<<<<< HEAD
 document.write(getBooksNum());
 document.write('<br >your favourite book is '+ getFavorite());
 //document.write('<b>books');
 document.write('</section>');
+=======
+document.write('books');
+'</section>'
+>>>>>>> ce556d7a8178a682bdd3f96dc12df1763800b152

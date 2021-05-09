@@ -41,11 +41,19 @@ header{
 }
 
 .image{
+<<<<<<< HEAD
   border-radius: 25px;
   display: inline-block;
   height: 250px;
   padding:3%;
   
+=======
+ 
+  display: inline-block;
+  height: 250px;
+ 
+  padding:3%;
+>>>>>>> ce556d7a8178a682bdd3f96dc12df1763800b152
  
 }
 
